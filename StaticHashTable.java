@@ -4,6 +4,9 @@ public class StaticHashTable {
 
     public StaticHashTable() {
         hashTable = new int[SIZE];
+        for(int i = 0; i<SIZE;i++){
+            hashTable{i} = -1;
+        }
     }
 
     private int hash(int value) {
